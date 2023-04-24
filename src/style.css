@@ -1,3 +1,48 @@
-h1 {
-  text-align: center;
+@font-face {
+  font-family: "Solide Mirage";
+  src: url("Mono/Solide_Mirage-Mono_web.eot");
+  src: url("Mono/Solide_Mirage-Mono_web.eot?#iefix") format("embedded-opentype"),
+    url("Mono/Solide_Mirage-Mono_web.woff") format("woff"),
+    url("Mono/Solide_Mirage-Mono_web.woff2") format("woff2"),
+    url("Mono/Solide_Mirage-Mono_web.ttf") format("truetype"),
+    url("Mono/Solide_Mirage-Mono_web.svg#svgFontName") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-size: 16px;
+  font-family: "Solide Mirage", mono;
+  background-color: rgb(190, 100, 48);
+  color: rgb(221, 223, 221);
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: rgb(221, 223, 221);
+}
+section {
+  height: 100vh;
+  background-image: url("https://res.cloudinary.com/themoonisadarkplace/image/upload/v1630172217/waterfall_o0uxl8.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+header {
+  /* using fixed position allows us to precisely position an element
+  in relation to the browser viewport */
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+/* this will select only a tags that are inside of footer tags */
+footer a {
+  margin-right: 5px;
+}
+
+a:hover {
+  color: rgb(190, 100, 48);
 }
