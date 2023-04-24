@@ -46,3 +46,14 @@ footer a {
 a:hover {
   color: rgb(190, 100, 48);
 }
+.image_2 {
+  background-image: url(https://res.cloudinary.com/themoonisadarkplace/image/upload/v1630713010/architecture_bvynaz.jpg);
+}
+
+.image_3 {
+  background-image: url(https://res.cloudinary.com/themoonisadarkplace/image/upload/v1630713432/mountain_range_os0p0u.jpg);
+}
+
+.image_4 {
+  background-image: url(https://res.cloudinary.com/themoonisadarkplace/image/upload/v1630713024/lotus_flower_mmyyrz.jpg);
+}
