@@ -30,7 +30,7 @@ header {
   /* using fixed position allows us to precisely position an element
   in relation to the browser viewport */
   position: fixed;
-  top: 20px;
+  top: 60px;
   left: 20px;
 }
 footer {
