@@ -16,6 +16,11 @@ body {
   color: rgb(221, 223, 221);
   margin: 0;
 }
+
+h2 {
+  text-align: center;
+}
+
 a {
   text-decoration: none;
   color: rgb(221, 223, 221);
@@ -70,16 +75,21 @@ a:hover {
 
 .about_me {
   position: relative;
+  width: 100%;
+  max-width: 800px;
 }
 
 .about_desc {
   position: absolute;
+  width: 100%;
   top: 50px;
   right: 650px;
-  width: 600px;
+  width: 700px;
 }
 .aboutme_pic {
   position: absolute;
+  display: block;
+  width: 100%;
   left: 600px;
 }
 
