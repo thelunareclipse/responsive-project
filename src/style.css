@@ -23,10 +23,12 @@ h2 {
 
 h3 {
   font-size: 35px;
+  text-align: center;
 }
 
 P {
-font-size: 15px;
+  font-size: 15px;
+  text-align: center;
 }
 
 a {
@@ -105,4 +107,13 @@ a:hover {
   text-align: center;
   margin-top: 50px;
   font-size: 80px;
+}
+
+.contactMe {
+  text-align: center;
+  font-size: 70px;
+}
+
+a.contactLinks:hover {
+  color: #347474;
 }
