@@ -46,6 +46,7 @@ footer a {
 a:hover {
   color: rgb(190, 100, 48);
 }
+
 .image_2 {
   background-image: url(https://res.cloudinary.com/themoonisadarkplace/image/upload/v1630713010/architecture_bvynaz.jpg);
 }
@@ -59,4 +60,25 @@ a:hover {
 }
 .navbar {
   background-color: #347474 !important;
+}
+
+.about_title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 80px;
+}
+
+.about_me {
+  position: relative;
+}
+
+.about_desc {
+  position: absolute;
+  top: 50px;
+  right: 650px;
+  width: 600px;
+}
+.aboutme_pic {
+  position: absolute;
+  left: 600px;
 }
