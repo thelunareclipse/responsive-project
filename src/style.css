@@ -29,8 +29,12 @@ h3 {
 P {
   font-size: 15px;
   text-align: center;
+  font-family: "Italiana", serif;
 }
 
+p.title-desc {
+  text-align: start;
+}
 a {
   text-decoration: none;
   color: rgb(221, 223, 221);
@@ -56,7 +60,10 @@ footer {
 /* this will select only a tags that are inside of footer tags */
 footer a {
   margin-right: 5px;
+  font-family: 'Italiana', serif;
 }
+
+
 
 a:hover {
   color: rgb(190, 100, 48);
@@ -101,6 +108,10 @@ a:hover {
   display: block;
   width: 100%;
   left: 600px;
+}
+
+.sm-desc {
+  width: 400px;
 }
 
 .my_work {
