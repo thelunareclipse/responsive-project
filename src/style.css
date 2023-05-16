@@ -9,10 +9,14 @@
   font-weight: normal;
   font-style: normal;
 }
+:root {
+  --primary-color: rgb(190, 100, 48);
+  --secondary-color: #347474;
+}
 body {
   font-size: 16px;
   font-family: "Solide Mirage", mono;
-  background-color: rgb(190, 100, 48);
+  background-color: var(--primary-color);
   color: rgb(221, 223, 221);
   margin: 0;
 }
@@ -60,13 +64,13 @@ footer {
 /* this will select only a tags that are inside of footer tags */
 footer a {
   margin-right: 5px;
-  font-family: 'Italiana', serif;
+  font-family: "Italiana", serif;
 }
-
-
-
+footer a:hover {
+  color: var(--secondary-color);
+}
 a:hover {
-  color: rgb(190, 100, 48);
+  color: var(--primary-color);
 }
 
 .image_2 {
@@ -81,7 +85,7 @@ a:hover {
   background-image: url(https://res.cloudinary.com/themoonisadarkplace/image/upload/v1630713024/lotus_flower_mmyyrz.jpg);
 }
 .navbar {
-  background-color: #347474 !important;
+  background-color: var(--secondary-color) !important;
 }
 
 .about_title {
@@ -126,5 +130,5 @@ a:hover {
 }
 
 a.contactLinks:hover {
-  color: #347474;
+  color: var(--secondary-color);
 }
