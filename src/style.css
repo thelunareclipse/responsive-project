@@ -31,7 +31,7 @@ h3 {
 }
 
 P {
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
   font-family: "Italiana", serif;
 }
@@ -90,7 +90,7 @@ a:hover {
 
 .about_title {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 80px;
 }
 
@@ -106,6 +106,7 @@ a:hover {
   top: 50px;
   right: 650px;
   width: 700px;
+  
 }
 .aboutme_pic {
   position: absolute;
@@ -133,6 +134,20 @@ a.contactLinks:hover {
   color: var(--secondary-color);
 }
 
-.social-links {
-  
+.contact-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.work-footer {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: -18px;
+  text-align: center;
+  font-size: 25px;
 }
