@@ -100,13 +100,16 @@ a:hover {
   max-width: 800px;
 }
 
+div.aboutPage {
+  background-color: var(--primary-color);
+}
+
 .about_desc {
   position: absolute;
   width: 100%;
   top: 50px;
   right: 650px;
   width: 700px;
-  
 }
 .aboutme_pic {
   position: absolute;
@@ -123,6 +126,10 @@ a:hover {
   text-align: center;
   margin-top: 50px;
   font-size: 80px;
+}
+
+.contactPage {
+  background-color: var(--primary-color);
 }
 
 .contactMe {
